@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #f8f8f8;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-menu a,
+.right-menu a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.pic-section {
+  flex: 1;
+}
+
+.shop-now-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.items-section {
+  flex: 2;
+}
+
+.trending-section,
+.best-selling-section,
+.choose-us-section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #333;
+}
+
+.choose-links a,
+.additional-links a {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
